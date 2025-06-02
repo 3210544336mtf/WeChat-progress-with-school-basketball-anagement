@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/user/index",
+    "pages/matches/list/index",
+    "pages/matches/detail/index",
+    "pages/matches/create/index",
+    "pages/teams/list/index",
+    "pages/teams/detail/index",
+    "pages/teams/create/index",
+    "pages/statistics/index",
+    "pages/notification/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E88E5",
+    "navigationBarTitleText": "校园篮球赛事管理",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1E88E5",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/matches/list/index",
+        "text": "赛事",
+        "iconPath": "images/match.png",
+        "selectedIconPath": "images/match_selected.png"
+      },
+      {
+        "pagePath": "pages/teams/list/index",
+        "text": "球队",
+        "iconPath": "images/team.png",
+        "selectedIconPath": "images/team_selected.png"
+      },
+      {
+        "pagePath": "pages/statistics/index",
+        "text": "统计",
+        "iconPath": "images/stats.png",
+        "selectedIconPath": "images/stats_selected.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user_selected.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
